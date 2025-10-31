@@ -7,6 +7,7 @@ function Contact() {
       <label htmlFor="">password</label>
       <input type="text" name=""placeholder='password ' />
       <button>Submit</button>
+
     </div>
   )
 }

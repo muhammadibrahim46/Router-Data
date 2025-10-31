@@ -17,3 +17,8 @@
     gap: 100px;
 margin-right: 10px;
 }
+.images {
+    max-width: 100px;
+    height: auto;
+
+}
