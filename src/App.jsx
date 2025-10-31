@@ -4,20 +4,21 @@ import About from './components/about'
 import Contact from './components/contact'
 import Error from './components/error'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  './components/home/home.css'
 import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
 {
   
 }
-function App() {``
+function App() {
   return (
     <Router>
       
     <>
-    <h1>start</h1>
+    <div className='container'>
     <Link to={'/'} >Home</Link>
     <Link to={'/About'} >About</Link>
     <Link to={'/Contact'} >contact</Link>
-  
+  </div>
   
     <Routes>
       <Route path='/' element={<Home/>}/>
